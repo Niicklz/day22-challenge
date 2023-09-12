@@ -1,0 +1,46 @@
+#app{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+canvas {
+  border: 2px solid steelblue;
+}
+.toolkits {
+  width: 803px;
+  height: 80px;
+  background-color: steelblue;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+
+ 
+}
+.size {
+  display: flex;
+  gap: 1rem;
+  
+}
+
+button, input {
+  min-height: 50px;
+  min-width: 50px;
+  font-size: 34px;
+}
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  min-width: 50px;
+  min-height: 50px;
+  font-size: 34px;
+  background-color: #fff;
+}
