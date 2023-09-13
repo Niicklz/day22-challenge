@@ -39,7 +39,7 @@ document.querySelector(".remove").addEventListener("click", ()=> {
 
 
 inputColor.addEventListener("change", (e)=> {
-laneColor = e.target.value
+lineColor = e.target.value
 })
 
 canvas.addEventListener("mousedown", (e) => {
